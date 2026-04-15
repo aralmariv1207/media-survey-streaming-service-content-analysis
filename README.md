@@ -1,4 +1,4 @@
-# Yandex Music: Music Streaming Data Analysis
+# Yandex Music: Streaming Data Analysis
 
 ## About
 
@@ -6,8 +6,8 @@ A Python-based analysis of music streaming logs that compares user habits and ge
 
 ## Technical Highlights
 
-· Data Integrity: Cleaned raw streaming logs by addressing missing values and removing duplicates to ensure reliable results.
+· **Data Integrity**: Cleaned raw streaming logs by addressing missing values and removing duplicates to ensure reliable results.
 
-· Conditional Logic: Built modular Python functions to segment listener data by city and time-of-day.
+· **Conditional Logic**: Built modular Python functions to segment listener data by city and time-of-day.
 
-· Pattern Recognition: Identified specific listener peaks on Mondays and Fridays across different metropolitan areas through quantitative aggregation.
+· **Pattern Recognition**: Identified specific listener peaks on Mondays and Fridays across different metropolitan areas through quantitative aggregation.

@@ -1,4 +1,4 @@
-# Entertainment Research: Streaming Service Content Analysis
+# Media Survey: Streaming Service Content Analysis
 
 ## About
 

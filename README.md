@@ -1,13 +1,17 @@
-# Yandex Music: Streaming Data Analysis
+# Entertainment Research: Streaming Service Content Analysis
 
 ## About
 
-A Python-based analysis of music streaming logs that compares user habits and genre preferences across two major metropolitan regions. Focuses on testing three specific hypotheses regarding listener behavior on different days of the week and the influence of regional location on music taste.
+This project conducts an exploratory deep-dive into a global streaming service catalog. By leveraging Python and the Pandas library, I analyzed thousands of titles to identify content trends, growth patterns, and genre distributions. This research serves as a tool for understanding how a streaming platform curates its library and balances different content types to maintain subscriber engagement.
 
-## Technical Highlights
+## Technical Highlights 
 
-· **Data Integrity**: Cleaned raw streaming logs by addressing missing values and removing duplicates to ensure reliable results.
+· **Catalog Sanitization**: Performed rigorous data cleaning on the `movies_and_shows.csv` dataset, including standardizing column headers and removing redundant entries to ensure a "single source of truth."
 
-· **Conditional Logic**: Built modular Python functions to segment listener data by city and time-of-day.
+· **Metadata Integrity**: Strategically handled missing values in critical metadata fields—such as `director`, `cast`, and `country`—to maintain the accuracy of regional and creator-based analytics.
 
-· **Pattern Recognition**: Identified specific listener peaks on Mondays and Fridays across different metropolitan areas through quantitative aggregation.
+· **Content Segmentation**: Developed data slices to compare the volume and release trends of **Movies vs. TV Shows**, providing a macro-view of the platform's content strategy.
+
+· **Growth Trend Analysis**: Examined `release_year` and `date_added` features to visualize the evolution of the catalog and identify peak content acquisition periods.
+
+· **Reproducible Pipeline**: Applied core Python principles (functions, loops, and conditional logic) to build a clean, modular analysis script.
